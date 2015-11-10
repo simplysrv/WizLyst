@@ -6,10 +6,10 @@ setlocale(LC_MONETARY, 'en_IN');
 error_reporting(0);
 
 class db_class{
-	private $host_string = "wizLyst.db.11732455.hostedresource.com";
-	private $username = "wizLyst";
-	private $password = "WizLyst@2013";
-	private $db_name = "wizLyst";
+	private $host_string = "";
+	private $username = "";
+	private $password = "";
+	private $db_name = "";
 
 	function connect(){
 		$con = mysqli_connect($this->host_string,$this->username,$this->password,$this->db_name);
